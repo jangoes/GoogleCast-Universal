@@ -1,0 +1,4 @@
+Frameworks/GoogleCast.xcframework filter=lfs diff=lfs merge=lfs -text
+*.xcframework filter=lfs diff=lfs merge=lfs -text
+Frameworks/GoogleCast.xcframework/ios-arm64_x86_64-simulator/GoogleCast.framework/GoogleCast filter=lfs diff=lfs merge=lfs -text
+Frameworks/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/GoogleCast filter=lfs diff=lfs merge=lfs -text
