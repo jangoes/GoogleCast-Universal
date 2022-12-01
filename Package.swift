@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "GoogleCast",
+    name: "GoogleCast-Universal",
     platforms: [
         .iOS(.v11)
     ],
     products: [
         .library(
-            name: "GoogleCast",
+            name: "GoogleCast-Universal",
             targets: ["GoogleCast"]),
     ],
     targets: [
