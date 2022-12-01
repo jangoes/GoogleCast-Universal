@@ -1,6 +1,6 @@
 # GoogleCast
 
-A description of this package.
+Uses GoogleCast's beta version which supports Simulator from M1 chip devices.
 
 # Installation
 1. Required `pod 'Protobuf'`
