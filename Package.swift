@@ -4,14 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "Templ.Cast",
+    name: "GoogleCast",
+    platforms: [
+        .iOS(.v11)
+    ],
     products: [
         .library(
-            name: "Templ.Cast",
+            name: "GoogleCast",
             targets: ["GoogleCast"]),
     ],
     targets: [
         .binaryTarget(name: "GoogleCast",
-                      path: "GoogleCast.xcframework")
+                      path: "Frameworks/GoogleCast.xcframework")
     ]
 )
